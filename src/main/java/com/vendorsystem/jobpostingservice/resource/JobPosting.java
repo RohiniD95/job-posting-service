@@ -3,7 +3,7 @@ package com.vendorsystem.jobpostingservice.resource;
 public class JobPosting {
 	
 
-
+	private String jptId;
 	private String jobPostingId;
 	private String company;
 	private Salary salary;
@@ -14,6 +14,15 @@ public class JobPosting {
 		super();
 	}
 	
+	
+	public String getJptId() {
+		return jptId;
+	}
+
+	public void setJptId(String jptId) {
+		this.jptId = jptId;
+	}
+
 	public String getJobPostingId() {
 		return jobPostingId;
 	}

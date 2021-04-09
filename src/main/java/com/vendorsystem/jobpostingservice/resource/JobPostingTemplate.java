@@ -3,23 +3,35 @@ package com.vendorsystem.jobpostingservice.resource;
 public class JobPostingTemplate {
 
 
-
-	private String templateId;
+	private String jptId;
 	private String title;
 	private String location;
 	private String description;
+	private String salaryId;
 	
 	public JobPostingTemplate() {
 		super();
 	}
+ 
 
-	public String getTemplateId() {
-		return templateId;
+	public String getJptId() {
+		return jptId;
 	}
 
-	public void setTemplateId(String templateId) {
-		this.templateId = templateId;
+	public void setJptId(String jptId) {
+		this.jptId = jptId;
 	}
+
+
+	public String getSalaryId() {
+		return salaryId;
+	}
+
+
+	public void setSalaryId(String salaryId) {
+		this.salaryId = salaryId;
+	}
+
 
 	public String getTitle() {
 		return title;

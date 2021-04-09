@@ -17,6 +17,7 @@ public class JobPostingService {
 			jobPosting.setJobPostingId(jpId);
 			jobPosting.setSalary(new Salary());
 			jobPosting.setTemplate(new JobPostingTemplate());
+			jobPosting.setJptId("Z1254308657");
 		}
 		return jobPosting;
 	}

@@ -2,11 +2,10 @@ package com.vendorsystem.jobpostingservice.resource;
 
 public class Salary {
 
-
-
+	private String jptId;
 	private String salaryId;
-	private int minSalary;
-	private int maxSalary;
+	private String minSalary;
+	private String maxSalary;
 	
 	public String getSalaryId() {
 		return salaryId;
@@ -16,19 +15,28 @@ public class Salary {
 		this.salaryId = salaryId;
 	}
 
-	public int getMinSalary() {
+
+	public String getJptId() {
+		return jptId;
+	}
+
+	public void setJptId(String jptId) {
+		this.jptId = jptId;
+	}
+
+	public String getMinSalary() {
 		return minSalary;
 	}
 
-	public void setMinSalary(int minSalary) {
+	public void setMinSalary(String minSalary) {
 		this.minSalary = minSalary;
 	}
 
-	public int getMaxSalary() {
+	public String getMaxSalary() {
 		return maxSalary;
 	}
 
-	public void setMaxSalary(int maxSalary) {
+	public void setMaxSalary(String maxSalary) {
 		this.maxSalary = maxSalary;
 	}
 
